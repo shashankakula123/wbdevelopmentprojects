@@ -1,0 +1,476 @@
+body{
+  margin:0px;
+  font-family: 'Poppins', sans-serif;
+}
+#tree{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+ 
+
+ 
+}
+#topbar-image{
+  width:40px;
+position:absolute;
+  left:10px;
+  
+}
+
+#topbar{
+  background-color: white;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+  
+}
+
+.menu-items{
+ 
+  color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 24px;
+    cursor: pointer;
+  margin-top:8px;
+  
+  
+}
+#dropdown{
+
+    border-top: 2px solid rgb(170, 210, 54);
+    color:black;
+  position:absolute;
+  width:110px;
+  height:110px;
+  background-color:white;
+  display:none;
+  
+}
+#dropdown >  a{
+  text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+    cursor: pointer;
+}
+#dropdown-container:hover > #dropdown{
+display:block;
+}
+
+#menu-wrapper{
+  display:flex;
+  
+}
+#landing-section{
+background-image:url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+  width:100%;
+  height:100vh;
+  background-position:0px -150px;
+  background-size:cover;
+
+}
+#heading{
+  margin:0px;
+  width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+#para{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#first{
+  width:100%;
+  height:100vh;
+display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.steps-item{
+  width:25%;
+ background-color: #5acda6;
+  color:white;
+  padding:112px 48px;
+  text-align:center;
+  box-sizing:border-box;
+}
+
+
+.step-icon{
+  font-size:96px;
+  tansition:all 0.3s;
+}
+.step-icon:hover{
+  transform:scale(1.3);
+}
+.step-heading{
+  font-size:24px;
+  font-weight:400;
+  
+}
+.step-para{
+  font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+#step-2{
+  background-color: #91ac41;
+}
+#step-3{
+  background-color: #e4b476;
+}
+#step-4{
+  background-color: #f69dad;
+}
+#step-wrapper{
+  display:flex;
+}
+#store-section{
+  width:100%;
+  padding-top:75px;
+  padding-bottom:75px;
+ background-color: #f7eee2;
+  text-align:center;
+  
+}
+#fresh-food{
+  color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+
+}
+#our-vegan{
+      font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+#radish{
+font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+
+}
+#store-items-wrapper{
+  width:100%;
+  margin:0 auto;
+  display:flex;
+}
+.icon-item{
+  width:25%;
+  text-align:center;
+  padding:24px;
+}
+.icon-wrapper {
+    display: inline-block;
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+    transition: all 0.3s;
+}
+.icon-wrapper:hover{
+  
+  transform:scale(1.3);
+}
+.icon{
+  font-size:60px;
+}
+.fresh-heading{
+  font-size: 24px;
+    font-weight: 600;
+}
+.use-para{
+  font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+  margin-top:10px;
+   margin-bottom:10px;
+  
+  
+}
+
+#food-para{
+  text-align:center;
+ color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+  margin:0;
+  margin-top:35px;
+  
+}
+#our{
+  text-align:center;
+  font-size:40px;
+  font-weight:600;
+  margi-bottom:8px;
+}
+#experts{
+ 
+  text-align:center;
+  color: #8b8b99;
+    letter-spacing: 0.5px;
+    
+  margin:0 auto;
+  font-size:16px;
+  margin-bottom: 55px;
+}
+
+#testimonals-wrapper{
+  width:100%;
+  max-width:1140px;
+  align-items:center;
+  display:flex;
+  margin:0 auto;
+  
+}
+
+.testimonal-item{
+  width:25%;
+  background-color: #f5f6fb;
+  padding:40px 30px;
+  text-align:center;
+  border-top-left-radius:45px;
+   border-bottom-left-radius:45px;
+  border-bottom-right-radius:45px;
+  margin:16px;
+   transition:box-shadow 0.3s; 
+}
+
+.testimonal-item:hover{
+box-shadow:4px 4px 4px #f5f6fb;
+}
+.veronica{
+  width:80px;
+  margin-bottom:25px;
+  border-radius:50%;
+}
+.testimonal-message{
+  font-size: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+
+}
+.king{
+  font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.cook{
+  color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+#follow-section{
+  display:flex;
+  margin-top:60px;
+}
+#left-section{
+  width:67%;
+  
+}
+#right-section{
+  width:33%;
+  background-image:url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+ background-position: left;
+    background-size: cover;
+}
+#straw{
+  width:100%;
+}
+#follow-wrapper{
+  width:400px;
+  margin:0 auto;
+  margin-top:100px;
+}
+
+#us{
+  font-size:45px;
+  margin-bottom:10px;
+}
+#wide{
+  color: #8b8b99;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    margin: 0;
+ 
+}
+#email{
+  width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+}
+#subscribe{
+  background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+#subscribe:hover{
+  background-color:transparent;
+  color:#f69dad;
+  border: 1px solid #f69dad;
+}
+
+#stats-section{
+  display:flex;
+  justify-content:space-around;
+  padding:4% 10%;
+  border:0px solid #ccc;
+}
+.views h1{
+  font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+.views p{
+  color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+.views{
+  text-align:center;
+}
+#video-section h1{
+font-size:44px;
+  font-weight:400;
+  color: #8b8b99;
+  margin:0px;
+}
+#video-section{
+  text-align:center;
+}
+#line-separator{
+  width: 96px;
+    display: inline-block;
+    height: 1px;
+    background-color: #e4b476;
+ 
+    margin-bottom: 36px;
+  
+}
+
+#video-section iframe{
+  width:100%;
+  height:425px;
+}
+
+.green-heading{
+  color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.section-heading{
+  font-size: 44px;
+ margin:0;
+}
+.section-desc{
+ font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px; 
+}
+.london{
+font-size:24px;
+  margin-bottom:0px;
+
+}
+#address-left{
+  width:50%;
+}
+
+.input-address{
+  width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+  
+    box-sizing: border-box;
+}
+.primary{
+  font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+#address-section{
+width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+  justify-content:space-between;
+  padding:100px 0;
+}
+.r{
+  margin-top:0;
+}
+#footer{
+
+  text-align:center;
+  background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  padding:20px 0px;
+}
