@@ -1,0 +1,406 @@
+body{
+  margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-family: 'Dosis', sans-serif;
+    color: #121213;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#banner{
+  position: relative;
+  height: 85vh;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: #c1c3cc;
+  background-image: linear-gradient(76deg,rgba(193, 195, 204, 0.83)35%,rgba(193, 195, 204, 0.28)65%), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+ background-position: 0px 0px, 50% 0%;
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+}
+#navigation{
+  width: 90%;
+  margin-top:2%;
+  margin-left:auto;
+  margin-right:auto;
+  position:absolute;
+  background-color:#fff;
+  display:flex;
+
+  justify-content:space-between;
+  
+  align-items:center;
+}
+.brand{
+  position:absolute;
+  display:flex;
+  padding-left:35px;
+  padding-right:35px;
+  height:110px;
+  background-color:#e47312;
+  align-items:center;
+  left:0;
+  top:0;
+}
+#logo{
+   width:90px;
+  
+}
+#nav-link{
+  position:relative;
+  display:flex;
+  align-items:center;
+  
+
+}
+
+.w-current{
+  position: relative;
+    display: inline-block;
+    padding: 31px 14px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#get-quote{
+  
+  height: 100%;
+    margin-left: 20px;
+    padding: 34px 28px 31px;
+    background-color: #e47312;
+  color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#slogan-section{
+ 
+  position:relative;
+  min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  top:350px;
+  left:200px;
+}
+#slogan{
+  color: #fff;
+    font-size: 62px;
+    line-height: 70px;
+  margin-top: 0px;
+    margin-bottom: 0px;
+}
+#we-para{
+  font-weight: 400;
+  margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+  margin-bottom: 25px;
+    color: hsla(0, 0%, 100%, 0.7);
+  
+}
+#again{
+ 
+  background-color:#e47312;
+  padding:12px 24px;
+  color:#fff;
+  font-size:10px;
+  
+  
+}
+.phone{
+  text-align:center;
+}
+.phone img{
+  width:24px;
+  
+}
+.phone-text{
+  margin-top: 0px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.number{
+  margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+font-size: 17px;
+    line-height: 25px;
+}
+#contact-section{
+  position:absolute;
+  top:70%;
+  left:44.9%;
+  background-color:#e47312;
+  display:flex;
+  width:50%;
+  justify-content:space-around;
+  padding:46px;
+}
+#map{
+  color: #fff;
+  font-size: 13px;
+    letter-spacing: 1px;
+ 
+}
+#map:hover{
+/*   border-bottom:1px solid #fff;
+   */
+  text-decoration:underline;
+}
+#social-media{
+  position:absolute;
+  top:28.2%;
+  left:96.7%;
+ display:flex;
+  flex-direction:column;
+  background-color:#000;
+  width:40px;
+  padding:10px;
+  align-items:center;
+}
+#social-media img{
+  width:20px;
+  height:20px;
+  margin:20px;
+}
+
+#bricks-section{
+  width:100%;
+  max-width:1200px;
+  padding-top:15%;
+  padding-bottom:5%;
+  margin: 0 17%;
+}
+#services{
+  font-size:120px;
+  color: rgba(241, 241, 247, 0.4);
+  letter-spacing: 11px;
+  z-index:1;
+}
+#special{
+  position:relative;
+  font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+  z-index:2;
+  bottom:90px;
+  left:50px;
+  
+}
+#right-button{
+  position:relative;
+  bottom:150px;
+  left:70%;
+}
+.construction{
+  width:25%;
+  
+}
+
+.construction img{
+  width:60px;
+  margin-bottom: 20px;
+}
+.renovation{
+  font-size:17px;
+  line-height: 30px;
+    letter-spacing: 1px;
+  margin-top:0;
+}
+.lorem{
+  margin-bottom: 10px;
+    font-family: Dosis, sans-serif;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+.construction h3{
+ border:none;
+  background-color:#fff;
+  color: #919198;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+#bricks-wrapper{
+  display:flex;
+}
+#w-left{
+  width:50%;
+  padding:40px;
+  text-align:right;
+}
+
+#w-left img{
+ width:70%;
+}
+#about-heading{
+  color: rgba(241, 241, 247, 0.4);
+    font-size: 120px;
+    letter-spacing: 11px;
+  position:relative;
+  top:-40px;
+}
+#who-heading{
+  font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+  position:relative;
+  top:-120px;
+  left:55px;
+ 
+}
+#w-right{
+  width:50%;
+   text-align:left;
+  padding-left:40px;
+}
+#margin-page{
+  display:flex;
+  
+  margin-left:-10px;
+  margin-right:-10px;
+}
+#para-wrapper{
+  margin:0;
+  padding:0;
+  position:relative;
+   top:-120px;
+   left:55px;
+}
+.based-para{
+  font-family: Dosis, sans-serif;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+#team{
+  margin-top:30px;
+  color: #919198;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+#employer{
+  margin-top:1%;
+ 
+  display:flex;
+  justify-content:space-around;
+  padding:0% 16%;
+}
+.employer-heading{
+  margin-bottom: 10px;
+    color: #e47312;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+
+}
+.employer-para{
+  margin-bottom: 10px;
+    font-family: Dosis, sans-serif;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+.one-seventy{
+  width:25%;
+  text-align:left;
+}
+
+#gray-section{
+
+  padding: 8% 0% 20px 20px;
+  background-color: #f7f8fc;
+}
+#projects{
+  position:relative;
+  left:250px;
+}
+#projects-heading{
+  color: rgba(241, 241, 247, 0.75);
+font-size: 120px;
+    letter-spacing: 11px;
+
+
+}
+#work-heading{
+  position:relative;
+  top:-80px;
+  left:50px;
+  font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+
+#buildings{
+  position:relative;
+  overflow:hidden;
+}
+
+
+
+
+.build-one img{
+  width:100%;
+ background-color:rgba(0,0,0,0.3);
+  opacity:1;
+}
+
+.bubble-para{
+  width:50px;
+  height:50px;
+  margin:0;
+ padding:0;
+    transform:translate(40%,40%);
+  
+  text-align:center;
+  box-sizing:border-box;
+ 
+   color:white;
+ 
+}
+#view-project{
+
+  width:15%;
+ 
+  z-index:1;
+height:15%;
+  background-color:#e47312;
+  position:absolute;
+ 
+  top:230px;
+  left:230px;
+ box-sizing:border-box;
+  padding:0;
+  border-radius:50%;
+  
+display:none;
+}
+.build-one{
+ width:33%;
+  position:relative;
+ 
+  
+}
+.build-one img:hover ~ #view-project{
+  display:block;
+  
+  
+  opacity:1;
+}
+
+.build-one img:hover{
+  background-color:rgba(0,0,0,1);
+}
